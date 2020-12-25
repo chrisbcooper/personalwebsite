@@ -54,11 +54,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrisbcooper/mywebsite.git"
+    "url": "git+https://github.com/chrisbcooper/personalwebsite.git"
   },
   "author": "Christopher Cooper",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chrisbcooper/mywebsite/issues"
+    "url": "https://github.com/chrisbcooper/personalwebsite/issues"
   }
 }
