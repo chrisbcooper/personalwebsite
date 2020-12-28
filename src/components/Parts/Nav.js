@@ -1,11 +1,30 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-scroll';
 
 function Nav() {
+
+
+  const [navTop, changeNavTop] = useState(true);
+
+  //add an event listener to change color of navbar
+
+  const changeNav = () => {
+    if(navTop && window.scrollY >= 700) {
+      changeNavTop(false);
+    } else if(!navTop && window.scrollY < 700) {
+      changeNavTop(true);
+    }
+  }
+
+  window.addEventListener('scroll', changeNav)
+
+  
+
+
   return (
-    <nav className='navbar navbar-dark sticky-top navbar-expand-lg  font'>
+    <nav className={`font ${navTop ? '' : 'nav-white'}`}>
       <Link
-        className='navbar-brand'
+        className={`nav-logo ${navTop ? 'link-white' : 'link-blue'}`}
         to='homepage'
         spy={true}
         smooth={true}
@@ -14,47 +33,38 @@ function Nav() {
       >
         <button className='nav-button'>CC</button>
       </Link>
-
-      <div className='disappear-small'>
-        <ul className='navbar-nav ml-auto right'>
+        <ul className='nav-link-outer'>
           <li className='nav-item'>
             <Link
-              className='nav-link'
+              className={`nav-link ${navTop ? 'link-white' : 'link-blue'}`}
               to='aboutme'
               spy={true}
               smooth={true}
-              offset={-70}
               duration={500}
-            >
-              <button className='nav-button'>About Me</button>
+            >About Me
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              className='nav-link'
+              className={`nav-link ${navTop ? 'link-white' : 'link-blue'}`}
               to='projects'
               spy={true}
               smooth={true}
-              offset={-70}
               duration={500}
-            >
-              <button className='nav-button'>Projects</button>
+            >Projects
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              className='nav-link'
+              className={`nav-link ${navTop ? 'link-white' : 'link-blue'}`}
               to='contactme'
               spy={true}
               smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              <button className='nav-button nav-item'>Contact Me</button>
+              duration={1000}
+            > Contact Me
             </Link>
           </li>
         </ul>
-      </div>
     </nav>
   );
 }
