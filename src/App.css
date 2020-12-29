@@ -266,21 +266,11 @@ hr {
   margin-bottom: 10%;
 }
 
-/* NEW STUFF */
-
-.hands-up {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  height: auto;
-  width: 100%;
-}
+/* TOP PAGE */
 
 .header {
   position: relative;
-  height: 700px;
-  min-height: 500px;
+  height: 100vh;
   width: 100%;
   background: #161415 url(./img/Me/HandsUp.jpeg) no-repeat top center;
   background-size: cover !important;
@@ -289,7 +279,6 @@ hr {
   overflow: hidden;
   align-items: center;
   color: white;
-  display: flex;
 }
 
 .middle-text {
@@ -298,7 +287,30 @@ hr {
   left: 0;
   right: 0;
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
+
+.middle-paragraph {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 90%;
+}
+
+.display {
+  color: white;
+  transition: 0.5s;
+}
+
+.display-none {
+  color: transparent;
+  transition: 0.5s;
+}
+
+/* NAVBAR */
 
 nav {
   display: flex;

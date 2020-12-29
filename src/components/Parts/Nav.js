@@ -22,7 +22,7 @@ function Nav() {
 
 
   return (
-    <nav className={`font ${navTop ? '' : 'nav-white'}`}>
+    <nav className={`font ${navTop ? '' : 'nav-white'}`} id='navbar'>
       <Link
         className={`nav-logo ${navTop ? 'link-white' : 'link-blue'}`}
         to='homepage'
