@@ -3,20 +3,20 @@ import { Link } from 'react-scroll';
 
 function Nav() {
 
-
-  const [navTop, changeNavTop] = useState(true);
-
-  //add an event listener to change color of navbar
-
-  const changeNav = () => {
+  
+  window.addEventListener('scroll', () => {
     if(document.getElementById('top-page').getBoundingClientRect().bottom <= 0) {
       changeNavTop(false);
     } else if(navTop && document.getElementById('top-page').getBoundingClientRect().bottom > 0) {
       changeNavTop(true);
     }
-  }
+  });
 
-  window.addEventListener('scroll', changeNav);
+  const [navTop, changeNavTop] = useState(true);
+
+  
+  
+  
 
   
 

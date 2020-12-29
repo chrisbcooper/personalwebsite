@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faChevronCircleDown} from '@fortawesome/free-solid-svg-icons'
+import { faChevronCircleDown} from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
 
 function Photo() {
 
   const [showHeader, setShowHeader] = useState(true);
   const [showParagraph, setShowParagraph] = useState(true);
-
-  const disappearHeader = () => {
+ 
+  window.addEventListener('scroll', () => {
     if(showHeader === true && document.getElementById('navbar').getBoundingClientRect().bottom + 40 > 
     document.getElementById('intro-name').getBoundingClientRect().top) {
       setShowHeader(false);
@@ -24,9 +24,7 @@ function Photo() {
     document.getElementById('intro-description').getBoundingClientRect().top) {
       setShowParagraph(true);
     }
-  }
-
-  window.addEventListener('scroll', disappearHeader);
+  });
 
 
   return (
