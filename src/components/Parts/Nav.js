@@ -9,54 +9,54 @@ function Nav() {
   //add an event listener to change color of navbar
 
   const changeNav = () => {
-    if(navTop && window.scrollY >= 700) {
+    if(document.getElementById('top-page').getBoundingClientRect().bottom <= 0) {
       changeNavTop(false);
-    } else if(!navTop && window.scrollY < 700) {
+    } else if(navTop && document.getElementById('top-page').getBoundingClientRect().bottom > 0) {
       changeNavTop(true);
     }
   }
 
-  window.addEventListener('scroll', changeNav)
+  window.addEventListener('scroll', changeNav);
+
+  
 
   
 
 
   return (
-    <nav className={`font ${navTop ? '' : 'nav-white'}`} id='navbar'>
+    <nav className={`font ${navTop ? 'no-bottom-padding' : 'nav-white '}`} id='navbar'>
       <Link
-        className={`nav-logo ${navTop ? 'link-white' : 'link-blue'}`}
-        to='homepage'
+        className={`nav-item`}
+        to='top-page'
         spy={true}
         smooth={true}
-        offset={-70}
-        duration={500}
-      >
-        <button className='nav-button'>CC</button>
+        duration={1000}
+      > CC
       </Link>
         <ul className='nav-link-outer'>
           <li className='nav-item'>
             <Link
-              className={`nav-link ${navTop ? 'link-white' : 'link-blue'}`}
+              className={`nav-link`}
               to='aboutme'
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
             >About Me
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              className={`nav-link ${navTop ? 'link-white' : 'link-blue'}`}
+              className={`nav-link`}
               to='projects'
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
             >Projects
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              className={`nav-link ${navTop ? 'link-white' : 'link-blue'}`}
+              className={`nav-link`}
               to='contactme'
               spy={true}
               smooth={true}

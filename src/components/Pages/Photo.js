@@ -1,4 +1,7 @@
 import React, {useState} from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faChevronCircleDown} from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-scroll';
 
 function Photo() {
 
@@ -6,14 +9,19 @@ function Photo() {
   const [showParagraph, setShowParagraph] = useState(true);
 
   const disappearHeader = () => {
-    if(window.scrollY + 48 > 130) {
-      setShowHeader(false)
-    } else {
+    if(showHeader === true && document.getElementById('navbar').getBoundingClientRect().bottom + 40 > 
+    document.getElementById('intro-name').getBoundingClientRect().top) {
+      setShowHeader(false);
+    } else if (showHeader === false && document.getElementById('navbar').getBoundingClientRect().bottom + 40 <= 
+    document.getElementById('intro-name').getBoundingClientRect().top){
       setShowHeader(true);
     }
-    if(window.scrollY + 10 > 130) {
-      setShowParagraph(false)
-    } else {
+
+    if(showParagraph === true &&document.getElementById('navbar').getBoundingClientRect().bottom + 40 > 
+    document.getElementById('intro-description').getBoundingClientRect().top) {
+      setShowParagraph(false);
+    } else if(showParagraph === false && document.getElementById('navbar').getBoundingClientRect().bottom + 40 <=
+    document.getElementById('intro-description').getBoundingClientRect().top) {
       setShowParagraph(true);
     }
   }
@@ -22,13 +30,17 @@ function Photo() {
 
 
   return (
-      <div className='header font' >
+      <div className='header font' id='top-page' >
         <div className='middle-text'>
-        <h1
+        <h1 id='intro-name'
         className={`${showHeader ? 'display' : 'display-none'}`}
-        >Hi! I am Christopher Cooper</h1>
-        <p className={`${showHeader ? 'display' : 'display-none'}`}>I am an aspiring Software Developer currently studying at USC</p>
+        >Hi! I'm Christopher Cooper</h1>
+        <p id='intro-description' className={`${showParagraph ? 'display' : 'display-none'}`}>Aspiring Software Engineer</p>
         </div>
+        <Link to='aboutme'
+        spy={true}
+        smooth={true}
+        duration={1000}><FontAwesomeIcon className='icon' size='3x' icon={faChevronCircleDown} /></Link>
       </div>
   );
 }

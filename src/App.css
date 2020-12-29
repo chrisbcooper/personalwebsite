@@ -36,23 +36,11 @@ body {
   background-color: white;
 }
 
-.home,
-.about,
 .projects,
 .contactme {
   text-align: center;
   background-color: white;
   color: black;
-}
-
-hr {
-  border-style: dotted none none;
-  width: 3%;
-  border-width: 6px;
-  border-color: var(--dark-color);
-  margin: 100px auto;
-  background-color: white;
-  z-index: 1;
 }
 
 .container-fluid {
@@ -81,62 +69,6 @@ hr {
   display: inline-block;
   vertical-align: middle;
   height: 50%;
-}
-
-/* NAVBAR AND FOOTER*/
-.navbar {
-  background-color: transparent;
-  height: 75px;
-  text-align: right;
-  display: fixed;
-  z-index: 1;
-}
-
-.nav-item {
-  color: white;
-}
-
-.footer {
-  background-color: var(--header-footer-color);
-  height: 75px;
-}
-
-@media (max-width: 1028px) {
-  .disappear-small {
-    display: none;
-  }
-}
-
-@media (min-width: 1028px) {
-  .small-dropdown {
-    display: none;
-  }
-}
-
-.a-icon {
-  color: var(--light-blue-color);
-  vertical-align: middle;
-  margin: 1%;
-}
-
-.a-icon:hover {
-  color: var(--dark-blue-color);
-}
-
-.navbar a:hover {
-  text-decoration: none;
-}
-
-.nav-button {
-  border-style: none;
-  margin: 0;
-  padding: 0;
-  background-color: transparent;
-  color: var(--light-blue);
-}
-
-.nav-button:focus {
-  outline: none;
 }
 
 /* HOMEPAGE */
@@ -310,6 +242,20 @@ hr {
   transition: 0.5s;
 }
 
+.icon {
+  bottom: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #cccccc;
+}
+
 /* NAVBAR */
 
 nav {
@@ -322,7 +268,11 @@ nav {
   z-index: 1;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px 10px 50px;
+}
+
+.no-bottom-padding {
+  padding: 20px 50px 0 50px;
+  transition: 0.5s;
 }
 
 .nav-link-outer {
@@ -337,6 +287,7 @@ nav {
 .nav-item {
   margin: 1%;
   display: inline-block;
+  cursor: pointer;
 }
 
 .nav-link {
@@ -344,6 +295,7 @@ nav {
   background: transparent;
   display: inline-block;
   white-space: nowrap;
+  margin: 0 10px;
 }
 
 .link-white {
@@ -351,17 +303,76 @@ nav {
   transition: 0.5s;
 }
 
-.link-blue {
-  color: blue;
-  transition: 0.5s;
-}
-
 .nav-logo {
-  font-size: 2em;
+  font-size: 1em;
+  background-color: transparent;
+  border: none;
+  color: white;
 }
 
 .nav-white {
-  background-color: white;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  background-color: rgb(51, 51, 51);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
+  padding: 20px 50px 20px 50px;
+}
+
+.about {
+  color: white;
+  background-color: rgb(15, 15, 15);
+  text-align: center;
+}
+.navbar {
+  background-color: transparent;
+  height: 75px;
+  text-align: right;
+  display: fixed;
+  z-index: 1;
+}
+
+.nav-item {
+  color: white;
+}
+
+.footer {
+  background-color: var(--header-footer-color);
+  height: 75px;
+}
+
+@media (max-width: 1028px) {
+  .disappear-small {
+    display: none;
+  }
+}
+
+@media (min-width: 1028px) {
+  .small-dropdown {
+    display: none;
+  }
+}
+
+.a-icon {
+  color: var(--light-blue-color);
+  vertical-align: middle;
+  margin: 1%;
+}
+
+.a-icon:hover {
+  color: var(--dark-blue-color);
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+.nav-button {
+  border-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  color: var(--light-blue);
+}
+
+.nav-button:focus {
+  outline: none;
 }
