@@ -14,14 +14,6 @@ function Nav() {
 
   const [navTop, changeNavTop] = useState(true);
 
-  
-  
-  
-
-  
-
-  
-
 
   return (
     <nav className={`font ${navTop ? 'no-bottom-padding' : 'nav-white '}`} id='navbar'>
@@ -42,6 +34,16 @@ function Nav() {
               smooth={true}
               duration={1000}
             >About Me
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              className={`nav-link`}
+              to='experience'
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >Experience
             </Link>
           </li>
           <li className='nav-item'>
