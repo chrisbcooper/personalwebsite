@@ -6,10 +6,10 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Nav from './components/Parts/Nav';
 import Footer from './components/Parts/Footer';
 import ContactMe from './components/Pages/ContactMe';
-import Projects from './components/Pages/Projects';
+import Projects from './components/Projects/Projects';
 import AboutMe from './components/Pages/AboutMe';
 import Photo from './components/Pages/Photo.js';
-import Experience from './components/Pages/Experience';
+import Experience from './components/Experience/Experience';
 
 function App() {
   return (
