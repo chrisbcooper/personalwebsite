@@ -121,13 +121,11 @@ body {
 }
 
 #intro-name {
-  font-size: 30px;
-  font-size: 4vw;
+  font-size: 175%;
 }
 
 #intro-description {
-  font-size: 20px;
-  font-size: 1.5vw;
+  font-size: 75%;
 }
 
 /* NAVBAR */
@@ -220,14 +218,18 @@ nav {
   }
 }
 
-.a-icon {
-  color: var(--primary-color);
+.a-icon svg {
+  color: white;
   vertical-align: middle;
   margin: 5%;
+  transform: translateY(0);
+  transition: 0.25;
 }
 
-.a-icon:hover {
-  color: var(--dark-blue-color);
+.a-icon svg:hover {
+  transform: translateY(-3px);
+  transition: 0.25;
+  color: rgb(51, 51, 51);
 }
 
 .navbar a:hover {
@@ -714,6 +716,7 @@ button {
   .project-icons,
   .project-icons-right {
     text-align: center;
+    padding-left: 0;
   }
 }
 
