@@ -3,8 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 //Components
-import Nav from './components/Parts/Nav';
-import Footer from './components/Parts/Footer';
+import Nav from './components/Nav/Nav';
 import ContactMe from './components/Pages/ContactMe';
 import Projects from './components/Projects/Projects';
 import AboutMe from './components/Pages/AboutMe';
@@ -21,7 +20,6 @@ function App() {
         <Experience />
         <Projects />
         <ContactMe />
-        <Footer />
       </Router>
     </div>
   );

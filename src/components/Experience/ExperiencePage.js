@@ -1,17 +1,22 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faBriefcase} from "@fortawesome/free-solid-svg-icons";
 
 function ExperiencePage({logo, name, position, time, description}) {
   return (
-      <div className='outer-experience' >
-        <div className="inked-sports inner-experience">
-            <img className='experience-logo' src={logo} alt=""/>
-            <div>
-                <h3 className='experience-name' >{name}</h3>
-                <h4 className='experience-position'>{position}</h4>
-                <h6 className="experience-time">{time}</h6>
-                <p className="experience-description">{description}</p>
-            </div>
-        </div>
+    
+    <div className="experience-item">
+      <div className='experience-icon-outer' >
+        <FontAwesomeIcon icon={faBriefcase} className='experience-icon' />
+      </div>
+      <div className="experience-name">
+        <h1>{name}</h1>
+        <p>{time}</p>
+      </div>
+      <div className="experience-description"> 
+      <h3>{position}</h3>
+      <p>{description}</p>
+      </div>
     </div>
   );
 }

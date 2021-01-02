@@ -1,41 +1,50 @@
-import React from 'react';
+import React, {useState} from 'react';
 import profilePic from '../../img/Me/profile-pic.jpeg';
 
 function AboutMe() {
 
+  const Text = () => (
+    <div className='aboutme-words'>
+        <div className='aboutme-description' >
+        <p>Hi! I'm Christopher, and I'm currently a sophomore studying Computer Science at The University of Southern California</p>
+          <p></p>
+          <p> I am passionate about
+          Software Engineering, but I am open to all kinds of paths. </p>
+          <p></p>
+          <p>
+          When I'm not coding I'm usually playing basketball or just spending time with friends and family.
+          I am currently looking for a Software Engineering Internship
+          for Summer 2021.
+          </p>
+          <p></p>
+          <p>Here are some technologies that I enjoy using:</p>
+          <div className="inner-grid">
+          <div className='aboutme-list'>C++</div>
+          <div className='aboutme-list'>Java</div>
+          <div className='aboutme-list'>Swift</div>
+          <div className='aboutme-list'>HTML/CSS/JS</div>
+          <div className='aboutme-list'>Reactjs</div>
+          <div className='aboutme-list'>Nodejs</div>
+          </div>
+          </div>
+          </div>
+  );
 
-  //Lower the padding around so I can get more information in 
+  const Im = () => (
+    <div>
+          <span className='helper'></span>
+          <img src={profilePic} alt=''  className='profile-pic' />
+          </div>
+  );
 
 
   return (
-    <div className='about container-fluid font' id='aboutme'>
+    <div className='font' id='aboutme'>
       <h1>About me</h1>
-      <div className='grid'>
-        <div>
-          <span className='helper'></span>
-          <img src={profilePic} alt=''  className='profile-pic' />
+        <div className='aboutme-grid'>
+          <Im />
+          <Text />
         </div>
-        <p>
-          I am currently a sophomore studying Computer Science at The
-          University of Southern California. I am passionate about
-          Software Engineering, but I am open to all kinds of paths.
-          When I'm not coding I'm usually playing basketball, spending
-          time outside, or just spending time with friends and family.
-          I am currently looking for a Software Engineering Internship
-          for Summer 2021.
-          </p> 
-      </div>
-      <div className='inner-grid'>
-          <div className='about-me-list'>C++</div>
-          <div className='about-me-list'>Java</div>
-          <div className='about-me-list'>Python</div>
-          <div className='about-me-list'>Swift</div>
-          <div className='about-me-list'>JavaScript</div>
-          <div className='about-me-list'>HTML</div>
-          <div className='about-me-list'>CSS</div>
-          <div className='about-me-list'>Reactjs</div>
-          <div className='about-me-list'>Nodejs</div>
-      </div>
     </div>
   );
 }
