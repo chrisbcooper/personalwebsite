@@ -1,35 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c06fb18.chunk.css",
-    "main.js": "/static/js/main.4740adb6.chunk.js",
-    "main.js.map": "/static/js/main.4740adb6.chunk.js.map",
+    "main.css": "/static/css/main.28c4010e.chunk.css",
+    "main.js": "/static/js/main.d9ca9941.chunk.js",
+    "main.js.map": "/static/js/main.d9ca9941.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b126251.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
-    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.fe270aad.chunk.js": "/static/js/2.fe270aad.chunk.js",
-    "static/js/2.fe270aad.chunk.js.map": "/static/js/2.fe270aad.chunk.js.map",
+    "static/js/2.e3b9264c.chunk.js": "/static/js/2.e3b9264c.chunk.js",
+    "static/js/2.e3b9264c.chunk.js.map": "/static/js/2.e3b9264c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.84caa225158970fdf4dfed0b8f279af7.js": "/precache-manifest.84caa225158970fdf4dfed0b8f279af7.js",
+    "precache-manifest.cf540d49924a23972cae9ba88a0141a4.js": "/precache-manifest.cf540d49924a23972cae9ba88a0141a4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
-    "static/css/main.0c06fb18.chunk.css.map": "/static/css/main.0c06fb18.chunk.css.map",
-    "static/js/2.fe270aad.chunk.js.LICENSE.txt": "/static/js/2.fe270aad.chunk.js.LICENSE.txt",
-    "static/media/Resume.pdf": "/static/media/Resume.6badb097.pdf",
-    "static/media/about-me.jpeg": "/static/media/about-me.7d8bb6d7.jpeg",
-    "static/media/bears.png": "/static/media/bears.35274e23.png",
-    "static/media/chatPhoto.png": "/static/media/chatPhoto.fc2c28f8.png",
-    "static/media/detailsPhoto.png": "/static/media/detailsPhoto.ee6e4d2e.png",
-    "static/media/feedPhoto.png": "/static/media/feedPhoto.d247593b.png",
-    "static/media/profile-pic.jpeg": "/static/media/profile-pic.e365989c.jpeg",
-    "static/media/profilePhoto.png": "/static/media/profilePhoto.4ccdbb74.png",
-    "static/media/yoga-bear.png": "/static/media/yoga-bear.6678a088.png",
-    "static/media/yoga-computer-pic.jpg": "/static/media/yoga-computer-pic.840f2e2b.jpg"
+    "static/css/main.28c4010e.chunk.css.map": "/static/css/main.28c4010e.chunk.css.map",
+    "static/js/2.e3b9264c.chunk.js.LICENSE.txt": "/static/js/2.e3b9264c.chunk.js.LICENSE.txt",
+    "static/media/ArcadeHoops.png": "/static/media/ArcadeHoops.d8b5090d.png",
+    "static/media/App.css": "/static/media/HandsUp.946d4eb2.jpeg",
+    "static/media/QuickWork.jpeg": "/static/media/QuickWork.657c5a60.jpeg",
+    "static/media/Resume.pdf": "/static/media/Resume.c9496154.pdf",
+    "static/media/SpotifyInsider.png": "/static/media/SpotifyInsider.c7e35bb5.png",
+    "static/media/profile-pic.jpeg": "/static/media/profile-pic.e365989c.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.9b126251.js",
-    "static/css/2.11829350.chunk.css",
-    "static/js/2.fe270aad.chunk.js",
-    "static/css/main.0c06fb18.chunk.css",
-    "static/js/main.4740adb6.chunk.js"
+    "static/js/2.e3b9264c.chunk.js",
+    "static/css/main.28c4010e.chunk.css",
+    "static/js/main.d9ca9941.chunk.js"
   ]
 }
