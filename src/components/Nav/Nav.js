@@ -83,7 +83,7 @@ function Nav() {
         </ul>
         </div>
         <div>
-          <button className='toggler' onClick={drawerToggleClickHandler} ><FontAwesomeIcon icon={faBars} className='bars' size='2x' /></button>
+          <button className='toggler' onClick={drawerToggleClickHandler} ><FontAwesomeIcon icon={faBars} className={`${navTop ? 'bars-white' : 'bars'}`} size='2x' /></button>
           {<div><SideDrawer toggle={drawerToggleClickHandler} open={sidedDrawerOpen} /> { sidedDrawerOpen &&
             <div className="backdrop" onClick={drawerToggleClickHandler} />}
             </div> }
