@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.28c4010e.chunk.css",
-    "main.js": "/static/js/main.d9ca9941.chunk.js",
-    "main.js.map": "/static/js/main.d9ca9941.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9b126251.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
-    "static/js/2.e3b9264c.chunk.js": "/static/js/2.e3b9264c.chunk.js",
-    "static/js/2.e3b9264c.chunk.js.map": "/static/js/2.e3b9264c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.cf540d49924a23972cae9ba88a0141a4.js": "/precache-manifest.cf540d49924a23972cae9ba88a0141a4.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.28c4010e.chunk.css.map": "/static/css/main.28c4010e.chunk.css.map",
-    "static/js/2.e3b9264c.chunk.js.LICENSE.txt": "/static/js/2.e3b9264c.chunk.js.LICENSE.txt",
-    "static/media/ArcadeHoops.png": "/static/media/ArcadeHoops.d8b5090d.png",
-    "static/media/App.css": "/static/media/HandsUp.946d4eb2.jpeg",
-    "static/media/QuickWork.jpeg": "/static/media/QuickWork.657c5a60.jpeg",
-    "static/media/Resume.pdf": "/static/media/Resume.c9496154.pdf",
-    "static/media/SpotifyInsider.png": "/static/media/SpotifyInsider.c7e35bb5.png",
-    "static/media/profile-pic.jpeg": "/static/media/profile-pic.e365989c.jpeg"
+    "main.css": "/personalwebsite/static/css/main.a47eb7aa.chunk.css",
+    "main.js": "/personalwebsite/static/js/main.d9ca9941.chunk.js",
+    "main.js.map": "/personalwebsite/static/js/main.d9ca9941.chunk.js.map",
+    "runtime-main.js": "/personalwebsite/static/js/runtime-main.4600424b.js",
+    "runtime-main.js.map": "/personalwebsite/static/js/runtime-main.4600424b.js.map",
+    "static/js/2.e3b9264c.chunk.js": "/personalwebsite/static/js/2.e3b9264c.chunk.js",
+    "static/js/2.e3b9264c.chunk.js.map": "/personalwebsite/static/js/2.e3b9264c.chunk.js.map",
+    "index.html": "/personalwebsite/index.html",
+    "precache-manifest.533dbe5762fd68b25b316f52b149ce36.js": "/personalwebsite/precache-manifest.533dbe5762fd68b25b316f52b149ce36.js",
+    "service-worker.js": "/personalwebsite/service-worker.js",
+    "static/css/main.a47eb7aa.chunk.css.map": "/personalwebsite/static/css/main.a47eb7aa.chunk.css.map",
+    "static/js/2.e3b9264c.chunk.js.LICENSE.txt": "/personalwebsite/static/js/2.e3b9264c.chunk.js.LICENSE.txt",
+    "static/media/ArcadeHoops.png": "/personalwebsite/static/media/ArcadeHoops.d8b5090d.png",
+    "static/media/App.css": "/personalwebsite/static/media/HandsUp.946d4eb2.jpeg",
+    "static/media/QuickWork.jpeg": "/personalwebsite/static/media/QuickWork.657c5a60.jpeg",
+    "static/media/Resume.pdf": "/personalwebsite/static/media/Resume.c9496154.pdf",
+    "static/media/SpotifyInsider.png": "/personalwebsite/static/media/SpotifyInsider.c7e35bb5.png",
+    "static/media/profile-pic.jpeg": "/personalwebsite/static/media/profile-pic.e365989c.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9b126251.js",
+    "static/js/runtime-main.4600424b.js",
     "static/js/2.e3b9264c.chunk.js",
-    "static/css/main.28c4010e.chunk.css",
+    "static/css/main.a47eb7aa.chunk.css",
     "static/js/main.d9ca9941.chunk.js"
   ]
 }
