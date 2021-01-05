@@ -5,6 +5,7 @@ import {faUniversity} from "@fortawesome/free-solid-svg-icons";
 
 
 function EducationPage() {
+
   return (
     <div className='experience-container'>
         <div className="experience-item">
@@ -17,7 +18,11 @@ function EducationPage() {
           </div>
           <div className="experience-description"> 
           <h3>B.S. Computer Science</h3>
-          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem</p>
+          <p>I am currently a sophomore at USC studying Computer Science. At school I am involved
+          with CAIS++, which focuses on using AI for social good, and Scope USC which helps students
+          learn and use a new framework that can be used for real world projects. Non computer science 
+          related, I am also a member of the club basketball team at USC.
+          </p>
           </div>
         </div>
       </div>

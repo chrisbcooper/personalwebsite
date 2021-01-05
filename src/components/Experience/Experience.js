@@ -1,5 +1,4 @@
 import React from 'react';
-import InkedSportsLogo from '../../img/Experience/InkedSportsLogo.jpeg';
 import EducationPage from './EducationPage';
 import ExperiencePage from './ExperiencePage';
 
@@ -13,7 +12,13 @@ function Experience() {
         position='Software Engineering Intern' 
         time='December 2020 - Present'
         name='Inked Sports'
-        description='At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem'
+        description="Inked Sports is a student run startup 
+        that looks to use Social Media to help college athletes
+        with their personal branding. The app is going to use 
+        the Instagram API to receive and analyze the data from
+        their social media, and use that to help them get deals
+        with companies. The app has a Firebase backend, and a 
+        React Native frontend (which is where I am working the most)."
       />
     </div>
       <h1>Education</h1>

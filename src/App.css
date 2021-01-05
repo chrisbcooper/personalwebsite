@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /* Global Styles */
 :root {
-  --primary-color: #376983;
-  --header-footer-color: #d24d57;
-  --dark-color: #1a1a1d;
-  --light-blue-color: #7395ae;
-  --dark-blue-color: #557a95;
-  --beige-color: #b1a296;
+  --nav-color: white;
+  --aboutme-color: rgb(24, 24, 24);
+  --experience-color: #ddd;
+  --projects-color: rgb(194, 104, 104);
+  --project-card-color: rgb(145, 78, 78);
+  --contactme-color: rgb(24, 24, 24);
 }
 
 /* GENERAL */
@@ -23,11 +24,13 @@ body {
 .body {
   height: 100%;
   width: 100%;
-  color: var(--header-footer-color);
+  color: var(--projects-color);
   position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 .font {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 
 .container-fluid h1 {
@@ -79,7 +82,7 @@ body {
 
 .middle-text {
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 0;
   right: 0;
   text-align: center;
@@ -125,7 +128,7 @@ body {
 }
 
 #intro-description {
-  font-size: 75%;
+  font-size: 85%;
 }
 
 /* NAVBAR */
@@ -146,8 +149,9 @@ nav {
 }
 
 .no-bottom-padding {
-  padding: 10px 50px 0 50px;
+  padding: 20px 50px 0 50px;
   transition: 0.5s;
+  color: white;
 }
 
 .toggle-button {
@@ -192,18 +196,18 @@ nav {
   font-size: 1em;
   background-color: transparent;
   border: none;
-  color: white;
 }
 
 .nav-white {
-  background-color: rgb(51, 51, 51);
+  background-color: var(--nav-color);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 20px 50px;
+  color: var(--projects-color);
 }
 
 .nav-item {
-  color: white;
+  font-weight: 300;
 }
 
 @media (max-width: 1028px) {
@@ -236,21 +240,13 @@ nav {
   text-decoration: none;
 }
 
-.nav-button {
-  border-style: none;
-  margin: 0;
-  padding: 0;
-  background-color: transparent;
-  color: var(--light-blue);
-}
-
 .nav-button:focus {
   outline: none;
 }
 
 .side-drawer {
   height: 100%;
-  background-color: rgb(51, 51, 51);
+  background-color: var(--nav-color);
   box-shadow: 1px 0px 7px rgba(0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -279,7 +275,7 @@ button {
 
 .bars {
   background: transparent;
-  color: white;
+  color: var(--projects-color);
 }
 
 .x-button {
@@ -290,7 +286,7 @@ button {
   transform: translateX(-50%);
   background: transparent;
   border: none;
-  color: white;
+  color: var(--projects-color);
 }
 
 .side-drawer ul {
@@ -308,11 +304,10 @@ button {
 
 .side-drawer a {
   text-decoration: none;
-  color: white;
+  color: var(--projects-color);
 }
 
 .side-drawer a:hover {
-  color: black;
   cursor: pointer;
 }
 
@@ -330,9 +325,9 @@ button {
 /* ABOUT ME PAGE */
 
 #aboutme {
-  padding: 10%;
+  padding: 12% 10%;
   color: white;
-  background-color: rgb(15, 15, 15);
+  background-color: var(--aboutme-color);
   text-align: center;
 }
 
@@ -348,7 +343,7 @@ button {
 
 #aboutme img {
   height: 14em;
-  border-radius: 2%;
+  border-radius: 50%;
   vertical-align: middle;
   margin: 20px auto;
 }
@@ -378,6 +373,7 @@ button {
   text-align: center;
   color: black;
   padding: 10%;
+  background-color: var(--experience-color);
 }
 
 #experience h1 {
@@ -553,7 +549,7 @@ button {
 
 #projects {
   text-align: center;
-  background-color: var(--header-footer-color);
+  background-color: var(--projects-color);
   color: white;
   padding: 10% 10%;
 }
@@ -592,6 +588,9 @@ button {
   transform: translateY(0);
   vertical-align: middle;
   display: inline-block;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
 }
 
 .project-pic:hover {
@@ -642,11 +641,12 @@ button {
 }
 
 .github-link {
-  color: rgb(51, 51, 51);
+  color: white;
 }
 
 .github-link:hover {
-  color: black;
+  color: #ddd;
+  cursor: pointer;
 }
 
 .other-projects {
@@ -662,12 +662,15 @@ button {
 .other-projects-item {
   box-sizing: border-box;
   margin: 20px;
-  border: 1px solid black;
+  background-color: var(--project-card-color);
   border-radius: 3px;
   display: flex;
   padding: 5%;
   justify-content: space-between;
   flex-direction: column;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
 }
 
 .other-name {
@@ -731,8 +734,8 @@ button {
 #contactme {
   text-align: center;
   color: white;
-  background-color: var(--dark-color);
-  padding: 7% 5%;
+  background-color: var(--contactme-color);
+  padding: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -786,10 +789,10 @@ button {
 }
 
 .resume-link:hover {
-  color: var(--header-footer-color);
+  color: var(--projects-color);
   text-decoration: none;
 }
 
 .footer {
-  padding-top: 5%;
+  height: 100px;
 }

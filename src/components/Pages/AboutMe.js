@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import profilePic from '../../img/Me/profile-pic.jpeg';
 
 function AboutMe() {
@@ -9,7 +9,7 @@ function AboutMe() {
         <p>Hi! I'm Christopher, and I'm currently a sophomore studying Computer Science at The University of Southern California</p>
           <p></p>
           <p> I am passionate about
-          Software Engineering, but I am open to all kinds of paths. </p>
+          Software Engineering, and I am constantly trying to learn more and grow. </p>
           <p></p>
           <p>
           When I'm not coding I'm usually playing basketball or just spending time with friends and family.

@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookF,
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
@@ -45,9 +44,6 @@ function ContactMe() {
       </a>
       <a className='a-icon' href='https://www.instagram.com/chriscooper13/'>
         <FontAwesomeIcon icon={faInstagram} size='2x'  />
-      </a>
-      <a className='a-icon' href='https://twitter.com/chriscoooper'>
-        <FontAwesomeIcon icon={faTwitter} size='2x' />
       </a>
       <a className='a-icon' href='https://github.com/chrisbcooper'>
         <FontAwesomeIcon icon={faGithub} size='2x' />

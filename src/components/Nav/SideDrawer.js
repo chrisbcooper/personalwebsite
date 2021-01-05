@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faWindowClose} from "@fortawesome/free-solid-svg-icons";
@@ -17,6 +17,15 @@ function SideDrawer({open, toggle}) {
                 <FontAwesomeIcon icon={faWindowClose} size='2x' />
             </button>
             <ul>
+            <li >
+            <Link
+              to='top-page'
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >Home
+            </Link>
+          </li>
           <li >
             <Link
               to='aboutme'
