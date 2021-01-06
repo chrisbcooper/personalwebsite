@@ -132,6 +132,12 @@ body {
   font-size: 85%;
 }
 
+@media (max-width: 400px) {
+  .header {
+    background-position: 70% 40%;
+  }
+}
+
 /* NAVBAR */
 
 nav {
@@ -158,6 +164,7 @@ nav {
 .toggle-button {
   height: 24px;
   width: 30px;
+  color: black;
 }
 
 .backdrop {
@@ -280,7 +287,7 @@ button {
 }
 .bars-white {
   background: transparent;
-  color: white;
+  color: black;
 }
 
 .x-button {
