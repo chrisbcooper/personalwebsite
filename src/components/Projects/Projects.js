@@ -19,10 +19,10 @@ function Projects() {
           tech3="Spotify Web API"
           projectPic={spotifyInsiderProfileNarrow}
           description="This is a personal project that allows the user to view more information 
-          about their spotify account. The user can look at personalized data based on the 
-          songs, artists, and genres that they listen to. They can also created 
-          recommended playlists based on what they listed to. The app was created with a Reactjs 
-          front end and a Node.js back end, which communicates with the Spotify Web API."
+          about their Spotify account. The user can look at personalized data based on the 
+          songs, artists, and genres that they listen to. They can also create 
+          recommended playlists based on what they listen to. The app was created with a Reactjs 
+          frontend and a Node.js backend, which communicates with the Spotify Web API."
         />
         <EvenProject 
           name="QuickWork"
@@ -33,9 +33,9 @@ function Projects() {
           tech3="Heroku"
           projectPic={quickWork}
           description="This was a group project created in a course that I took outside the USC curriculum. This group
-          project was created to help those during the pandemic to find jobs around the neighborhood. The front end was
+          project was created to help those during the pandemic to find jobs around the neighborhood. The frontend was
           created in Swift, and the back end was hosted on Heroku. I helped work on the functionality of the app, and how
-           the data was sent to the Heroku server."
+          the data was sent to the Heroku server."
         />  
         <OddProject 
           name="Arcade Hoops"
@@ -47,8 +47,8 @@ function Projects() {
           projectPic={arcadeHoops}
           description="This was a group project completed in a class at USC. The front end 
           was created with Swift, and the back end was a Java HTTP Servlet. I helped work on the
-          back end of teh project where we communicate with MySQL to store the users data. I helped create
-          the Servlet and helped facilitate the connection between the front end and the back end."
+          back end of the project where we communicate with MySQL to store the user's data. I helped create
+          the Servlet and helped facilitate the connection between the frontend and the backend."
         />
       <h3>Other Projects</h3>
       <div className='other-projects' >
@@ -56,7 +56,7 @@ function Projects() {
           name='Yoga Bear'
           description='Application that allows the user to perform a certain yoga pose and compare them to professional poses.
            Front end was in Java and back end was in Python. I worked on the Python algorithm that compared the poses and created 
-           an overall percentage of how their pose was.'
+           an overall percentage of how accurate their pose was.'
           githublink='https://github.com/chrisbcooper/YogaBear'
           tech1='Java'
           tech2='Python'

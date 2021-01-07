@@ -38,7 +38,8 @@ function Photo() {
         <Link to='aboutme'
         spy={true}
         smooth={true}
-        duration={1000}><FontAwesomeIcon className='icon' size='3x' icon={faChevronCircleDown} /></Link>
+        duration={1000}
+        className='down-icon'><FontAwesomeIcon className='icon' size='3x' icon={faChevronCircleDown} /></Link>
       </div>
   );
 }
