@@ -19,8 +19,7 @@ function EducationPage() {
           <div className="experience-description"> 
           <h3>B.S. Computer Science</h3>
           <p>I am currently a sophomore at USC studying Computer Science. At school I am involved
-          with CAIS++, which focuses on using AI for social good, and Scope USC which helps students
-          learn and use a new framework that can be used for real world projects. Non computer science 
+          with CAIS++, which focuses on using AI for social good. Non computer science 
           related, I am also a member of the club basketball team at USC.
           </p>
           </div>

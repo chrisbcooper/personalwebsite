@@ -18,7 +18,7 @@ function Experience() {
         the Instagram API to receive and analyze the data from
         their social media, and use that to help them get deals
         with companies. The app has a Firebase backend, and a 
-        React Native frontend (which is where I am working the most)."
+        React Native frontend."
       />
     </div>
       <h1>Education</h1>

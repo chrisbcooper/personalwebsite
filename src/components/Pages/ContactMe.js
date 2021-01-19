@@ -13,8 +13,7 @@ function ContactMe() {
     <div id='contactme' className='font'>
       <h1>Contact Me</h1>
       <p>
-        I'm always willing to meet new people, so please reach out to me if you
-        can!
+        I'm always willing to start new projects with people, so reach out to me if you want to build something together!
       </p>
       <p>Emaill: coopercb@usc.edu</p>
       <p>Phone Number: (949) 838 - 6614</p>
