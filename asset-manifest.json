@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.0c894bc5.chunk.css",
-    "main.js": "/static/js/main.19f0a81c.chunk.js",
-    "main.js.map": "/static/js/main.19f0a81c.chunk.js.map",
+    "main.js": "/static/js/main.4fff38b4.chunk.js",
+    "main.js.map": "/static/js/main.4fff38b4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b126251.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
     "static/js/2.e3b9264c.chunk.js": "/static/js/2.e3b9264c.chunk.js",
     "static/js/2.e3b9264c.chunk.js.map": "/static/js/2.e3b9264c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6c7183489217f4cac46bb23775df7c39.js": "/precache-manifest.6c7183489217f4cac46bb23775df7c39.js",
+    "precache-manifest.0520afcbfec390bf56dcbb0a69c5bb68.js": "/precache-manifest.0520afcbfec390bf56dcbb0a69c5bb68.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.0c894bc5.chunk.css.map": "/static/css/main.0c894bc5.chunk.css.map",
     "static/js/2.e3b9264c.chunk.js.LICENSE.txt": "/static/js/2.e3b9264c.chunk.js.LICENSE.txt",
     "static/media/ArcadeHoops.png": "/static/media/ArcadeHoops.d8b5090d.png",
     "static/media/QuickWork.jpeg": "/static/media/QuickWork.657c5a60.jpeg",
-    "static/media/Resume.pdf": "/static/media/Resume.c9496154.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.887f77fa.pdf",
     "static/media/App.css": "/static/media/RightGrey.05e1b4d0.jpeg",
     "static/media/SpotifyInsider.png": "/static/media/SpotifyInsider.c7e35bb5.png",
     "static/media/profile-pic.jpeg": "/static/media/profile-pic.e365989c.jpeg"
@@ -23,6 +23,6 @@
     "static/js/runtime-main.9b126251.js",
     "static/js/2.e3b9264c.chunk.js",
     "static/css/main.0c894bc5.chunk.css",
-    "static/js/main.19f0a81c.chunk.js"
+    "static/js/main.4fff38b4.chunk.js"
   ]
 }
