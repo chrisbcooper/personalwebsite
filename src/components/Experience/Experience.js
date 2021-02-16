@@ -8,6 +8,12 @@ function Experience() {
     <div id='experience' className='font'>
     <h1>Experience</h1>
     <div className='experience-container'>
+    <ExperiencePage
+      position='Incoming Software Engineering Intern'
+      time='Starting June 2021'
+      name='PIMCO'
+      />
+      <div style={{height: 40}}  />
       <ExperiencePage 
         position='Software Engineering Intern' 
         time='December 2020 - Present'
