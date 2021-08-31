@@ -20,8 +20,8 @@ function Projects() {
 				tech4='JWT'
 				projectPic={foodConnect}
 				description='This is a personal project that allows the user to explore local restaurants, review these restaurants,
-				and see with their friends posts as well. They can create and comment on posts, create a wishlists of restaurants they want to go to,
-				and join groups who have similar taste. The idea is so that if someone is stuck with no idea of where to eat, they can go to Food Connect
+				and see what their friends posts as well. They can create and comment on posts, create a wishlist of restaurants they want to go to,
+				and join groups who have similar tastes. The idea is so that if someone is stuck with no idea of where to eat, they can go to Food Connect
 				to find the answer. The front-end of the project was made with React with a Node.js backend.
 				The backend uses MongoDB to store all of the data, AWS to store all of the media, and JWT for authentication.'
 			/>

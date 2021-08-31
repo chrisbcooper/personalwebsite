@@ -6,7 +6,7 @@ function AboutMe() {
 		<div className='aboutme-words'>
 			<div className='aboutme-description'>
 				<p>
-					Hi! I'm Christopher, and I'm currently a sophomore studying
+					Hi! I'm Christopher, and I'm currently a junior studying
 					Computer Science at The University of Southern California
 				</p>
 				<p></p>
