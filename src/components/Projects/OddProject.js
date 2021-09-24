@@ -45,7 +45,14 @@ function OddProject({
 					</div>
 				</div>
 				<div className='project-description'>
-					{width > 768 && <h3>{name}</h3>}
+					{width > 768 && (
+						<a
+							href={link}
+							style={{ color: 'white', textDecoration: 'none' }}
+						>
+							<h3>{name}</h3>
+						</a>
+					)}
 					<p>{description}</p>
 					<div className='project-technologies'>
 						<p>{tech1}</p>
