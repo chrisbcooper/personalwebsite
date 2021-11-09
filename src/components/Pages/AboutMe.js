@@ -13,14 +13,9 @@ function AboutMe() {
 				<p>
 					{' '}
 					I am passionate about Software Engineering, and I am
-					constantly trying to learn more and grow.{' '}
-				</p>
-				<p></p>
-				<p>
-					When I'm not coding I'm usually playing basketball or just
-					spending time with friends and family. I am currently
-					looking for a Software Engineering Internship for Summer
-					2022.
+					constantly trying to learn more and grow. When I'm not
+					coding I'm usually playing basketball or just spending time
+					with friends and family.
 				</p>
 				<p></p>
 				<p>Here are some technologies that I enjoy using:</p>
@@ -33,7 +28,6 @@ function AboutMe() {
 					<div className='aboutme-list'>MongoDB</div>
 					<div className='aboutme-list'>SQL</div>
 					<div className='aboutme-list'>Reactjs</div>
-					<div className='aboutme-list'>HTML/CSS/JS</div>
 					<div className='aboutme-list'>Git</div>
 				</div>
 			</div>
