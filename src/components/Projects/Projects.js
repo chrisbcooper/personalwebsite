@@ -83,6 +83,7 @@ function Projects() {
            I used HTML/CSS for the styling and Javascript to make the website responsive. 
            The website is hosted on Github pages, and it displays more about me.'
 					githublink='https://github.com/chrisbcooper/personalwebsite'
+					link='https://christophercooper.me'
 					tech1='Reactjs'
 					tech2='JavaScript'
 					tech3='HTML/CSS'
