@@ -17,19 +17,18 @@ function ContactMe() {
 				out to me if you want to build something together!
 			</p>
 			<p>Emaill: coopercb@usc.edu</p>
-			<p>Phone Number: (949) 838 - 6614</p>
 			<p>
 				<a
 					href={resume}
 					className='resume-link'
-					// target='_blank'
-					// rel='noopener noreferrer'
+					target='_blank'
+					rel='noopener noreferrer'
 				>
 					Resume
 				</a>
 			</p>
 			<div className='link-div'>
-				<a href='mailto:coopercb@usc.edu' className='contact-btn'>
+				<a href='mailto:chrisbcoop13@gmail.com' className='contact-btn'>
 					Get in touch!
 				</a>
 			</div>
